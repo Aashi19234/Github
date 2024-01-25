@@ -9,29 +9,34 @@
 
 </head>
 <body>
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Enter GitHub username here" aria-label="Recipient's username" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enter</button>
-  </div>
+  <form id="form" onsubmit="return formsubmit()">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Enter GitHub username here" aria-label="Recipient's username" aria-describedby="button-addon2">
+    </div>
+    
+  </form>
+  
 
   <main id="card">
-    <!--<div class="card">
+    <div class="card-horizontal">
       <img src="..." class="card-img-top " alt="User Image">
-      <div class="card-body">
+      <div class= "card-body">
         <h5 class="card-title">Name</h5>
         <p class="card-text">Bio</p>
       </div>
-      <ul class="list-group list-group-flush">
+    </div>
+      <ul class="list-group list-group-flush list-group-horizontal">
         <li class="list-group-item">Followers</li>
         <li class="list-group-item">Following</li>
         <li class="list-group-item">Repo</li>
       </ul>
-      <div id="repos">
+      <div id="repos" class="horizontal-repos" >
+      
         <a class="repo" href="#" target="_blank">Repo 1</a>
         <a class="repo" href="#" target="_blank">Repo 2</a>
         <a class="repo" href="#" target="_blank">Repo 3</a>
       </div>
-    </div>-->
+    
   </main>
 
     
