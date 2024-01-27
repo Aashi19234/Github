@@ -26,7 +26,7 @@ const card= `<div class="card-horizontal">
 main.innerHTML=card;
 getrepos(username)
 }
-getuser("PranavBarthwal")
+getuser("Aashi19234")
 
 const getrepos=async (username)=>{
     const repos=document.querySelector("#repos")
