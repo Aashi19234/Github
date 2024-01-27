@@ -4,6 +4,7 @@ const searchbox=document.querySelector(".form-control")
 const getuser= async(username)=>{// its a promise in which meanwhile the response is generated the compiler is doing other work
 const response= await fetch(APIURL+username);
 const data= await response.json()
+
 const card= `<div class="card-horizontal">
 <img src="${data.avatar_url}" class="card-img-top " alt="User Image">
 <div class=""card-body"">
